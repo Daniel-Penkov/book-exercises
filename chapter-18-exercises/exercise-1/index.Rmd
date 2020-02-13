@@ -1,0 +1,30 @@
+---
+title: "R Markdown Demo"
+author: "Daniel Penkov"
+date: "2/11/2020"
+output: html_document
+---
+
+## This is my report!
+
+I like writing **reports**
+
+
+
+```{r setup, include = FALSE}
+library("knitr")
+source("exercise.R")
+```
+
+
+```{r example, echo = FALSE}
+numbers <- runif(1:100)
+hist(numbers)
+numbers_mean <- mean(numbers)
+```
+
+The mean of the numbers happens to be **`r numbers_mean`**.
+
+```{r other_chunk}
+print(numbers)
+```
