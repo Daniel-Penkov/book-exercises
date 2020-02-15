@@ -38,8 +38,7 @@ ggplot(data = diamonds_sample) +
 # previous exercise).
 ggplot(data = diamonds_sample) +
   geom_point(mapping = aes(x = cut, y = clarity)) +
-  jitter()
-
+  geom_jitter()
 
 
 ## Scales
@@ -122,4 +121,6 @@ ggplot(data = diamonds_sample) +
 # Use the `ggsave()` function to save the current (recent) plot to disk.
 # Name the output file "my-plot.png".
 # Make sure you've set the working directory!!
+ggsave("my-plot.png")
+
 
