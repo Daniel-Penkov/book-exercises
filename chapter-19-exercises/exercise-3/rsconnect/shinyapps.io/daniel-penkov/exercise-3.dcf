@@ -1,0 +1,13 @@
+name: exercise-3
+title:
+username:
+account: daniel-penkov
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1898059
+bundleId: 2848688
+url: https://daniel-penkov.shinyapps.io/exercise-3/
+when: 1583277154.61207
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .Rapp.history|README.md|img/example.png
